@@ -5,11 +5,11 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && node log.mjs",
     "preview": "astro preview"
   },
   "devDependencies": {
     "@astrojs/vercel": "^0.2.4",
-    "astro": "^1.0.0-beta.60"
+    "astro": "1.0.0-beta.63"
   }
 }
